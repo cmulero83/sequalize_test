@@ -1,0 +1,26 @@
+{
+  "name": "sequalize_test",
+  "version": "1.0.0",
+  "description": "Ejemplo de uso de sequalize",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmulero83/sequalize_test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cmulero83/sequalize_test/issues"
+  },
+  "homepage": "https://github.com/cmulero83/sequalize_test#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.15",
+    "sequelize": "^6.9.0"
+  }
+}
