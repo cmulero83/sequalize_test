@@ -31,6 +31,21 @@ router.get('/:id', (req, res) => {
 
 // UPDATE
 
+router.patch('/:id', (req, res)=> {
+
+
+    Post.update({
+        title: req.body.title,
+        body: req.body.body
+        },{
+            where: {
+                id:req.params.id
+            }
+        }).then(result => {
+            res.json(result)
+        })
+})
+
 
 // DELETE
 
